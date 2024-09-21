@@ -1,0 +1,12 @@
+<p>Age Calculator</p>
+<form (ngSubmit)="calculateAge()">
+  <label for="birthYear">Enter your birth year:</label>
+  <input type="number" id="birthYear" [(ngModel)]="birthYear" name="birthYear" required>
+
+  <button type="submit">Calculate Age</button>
+</form>
+
+
+<div *ngIf="age !== null">
+  <p>Your Age: {{ age }} years old</p>
+</div>
