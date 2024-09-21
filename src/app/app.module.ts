@@ -13,6 +13,7 @@ import {SimpleformComponent} from "./components/simpleform/simpleform.component"
 import {UserageComponent} from "./components/userage/userage.component";
 import {UsergreetingComponent} from "./components/usergreeting/usergreeting.component";
 import {CalculatorComponent} from "./components/calculator/calculator.component";
+import {TextlengthComponent} from "./components/textlength/textlength.component";
 
 
 const routes: Route[] = [
@@ -24,6 +25,7 @@ const routes: Route[] = [
   {path: 'Userage', component: UserageComponent},
   {path: 'Usergreeting', component: UsergreetingComponent},
   {path: 'Calculator', component: CalculatorComponent},
+  {path: 'Textlength', component: TextlengthComponent},
 
 ]
 
@@ -47,6 +49,7 @@ const routes: Route[] = [
     UserageComponent,
     UsergreetingComponent,
     CalculatorComponent,
+    TextlengthComponent,
 
   ],
 

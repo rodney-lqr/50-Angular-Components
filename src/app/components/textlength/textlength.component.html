@@ -1,0 +1,11 @@
+<p>Text Length Calculator</p>
+<form (ngSubmit)="calculateLength()">
+  <label for="inputText">Enter a string:</label>
+  <input type="text" id="inputText" [(ngModel)]="inputText" name="inputText" required>
+
+  <button style="margin: 2px" type="submit">Calculate Length</button>
+</form>
+
+<div *ngIf="textLength !== null">
+  <p>Length of the string: {{ textLength }}</p>
+</div>
