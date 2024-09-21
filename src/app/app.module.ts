@@ -14,6 +14,7 @@ import {UserageComponent} from "./components/userage/userage.component";
 import {UsergreetingComponent} from "./components/usergreeting/usergreeting.component";
 import {CalculatorComponent} from "./components/calculator/calculator.component";
 import {TextlengthComponent} from "./components/textlength/textlength.component";
+import {CurrencyconverterComponent} from "./components/currencyconverter/currencyconverter.component";
 
 
 const routes: Route[] = [
@@ -26,6 +27,8 @@ const routes: Route[] = [
   {path: 'Usergreeting', component: UsergreetingComponent},
   {path: 'Calculator', component: CalculatorComponent},
   {path: 'Textlength', component: TextlengthComponent},
+  {path: 'Currencyconverter', component: CurrencyconverterComponent},
+
 
 ]
 
@@ -50,6 +53,7 @@ const routes: Route[] = [
     UsergreetingComponent,
     CalculatorComponent,
     TextlengthComponent,
+    CurrencyconverterComponent,
 
   ],
 

@@ -1,0 +1,11 @@
+<p>Currency Converter (USD to PHP)</p>
+<form (ngSubmit)="convertCurrency()">
+  <label for="usdAmount">Enter amount in USD:</label>
+  <input type="number" id="usdAmount" [(ngModel)]="usdAmount" name="usdAmount" required>
+
+  <button type="submit">Convert</button>
+</form>
+
+<div *ngIf="phpAmount !== null">
+  <p>Amount in PHP: ₱{{ phpAmount }}</p>
+</div>
