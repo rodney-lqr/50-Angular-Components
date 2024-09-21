@@ -26,6 +26,7 @@ import {BookmarklistComponent} from "./components/bookmarklist/bookmarklist.comp
 import {CharactercounterComponent} from "./components/charactercounter/charactercounter.component";
 import {PalindromecheckerComponent} from "./components/palindromechecker/palindromechecker.component";
 import {TemperatureconverterComponent} from "./components/temperatureconverter/temperatureconverter.component";
+import {ShoppinglistComponent} from "./components/shoppinglist/shoppinglist.component";
 
 
 const routes: Route[] = [
@@ -50,6 +51,7 @@ const routes: Route[] = [
   {path: 'Charactercounter', component: CharactercounterComponent},
   {path: 'Palindromechecker', component: PalindromecheckerComponent},
   {path: 'Temperatureconverter', component: TemperatureconverterComponent},
+  {path: 'Shoppinglist', component: ShoppinglistComponent},
 
 ]
 
@@ -86,6 +88,8 @@ const routes: Route[] = [
     CharactercounterComponent,
     PalindromecheckerComponent,
     TemperatureconverterComponent,
+    ShoppinglistComponent,
+
 
   ],
 
