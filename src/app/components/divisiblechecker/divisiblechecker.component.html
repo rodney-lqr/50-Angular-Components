@@ -1,0 +1,9 @@
+<h2>Divisibility Checker</h2>
+
+<input type="number" [(ngModel)]="dividend" placeholder="Enter dividend" />
+
+<input type="number" [(ngModel)]="divisor" placeholder="Enter divisor" />
+
+<button (click)="checkDivisibility()">Check Divisibility</button>
+
+<p *ngIf="isDivisible !== null">{{ dividend }} is {{ isDivisible ? '' : 'not' }} divisible by {{ divisor }}</p>
