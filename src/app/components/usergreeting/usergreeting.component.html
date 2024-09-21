@@ -1,0 +1,11 @@
+<p>Greeting Generator</p>
+<form (ngSubmit)="displayGreeting()">
+  <label for="userName">Enter your name:</label>
+  <input type="text" id="userName" [(ngModel)]="userName" name="userName" required>
+
+  <button type="submit">Greet Me</button>
+</form>
+
+<div *ngIf="greeting">
+  <p>{{ greeting }}</p>
+</div>

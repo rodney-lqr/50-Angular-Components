@@ -11,6 +11,7 @@ import {FormsModule} from "@angular/forms";
 import {CounterComponent} from "./components/counter/counter.component";
 import {SimpleformComponent} from "./components/simpleform/simpleform.component";
 import {UserageComponent} from "./components/userage/userage.component";
+import {UsergreetingComponent} from "./components/usergreeting/usergreeting.component";
 
 
 const routes: Route[] = [
@@ -20,6 +21,7 @@ const routes: Route[] = [
   {path: 'Counter', component: CounterComponent},
   {path: 'Simpleform', component: SimpleformComponent},
   {path: 'Userage', component: UserageComponent},
+  {path: 'Usergreeting', component: UsergreetingComponent},
 
 ]
 
@@ -41,7 +43,7 @@ const routes: Route[] = [
     CounterComponent,
     SimpleformComponent,
     UserageComponent,
-
+    UsergreetingComponent
   ],
 
   providers:[
