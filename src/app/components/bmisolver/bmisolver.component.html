@@ -1,0 +1,5 @@
+<P>BMI Calculator</P>
+<input type="number" [(ngModel)]="height" placeholder="Height (meters)" />
+<input type="number" [(ngModel)]="weight" placeholder="Weight (kg)" />
+<button (click)="calculateBMI()">Calculate BMI</button>
+<p *ngIf="bmi !== null">Your BMI: {{ bmi.toFixed(2) }}</p>
