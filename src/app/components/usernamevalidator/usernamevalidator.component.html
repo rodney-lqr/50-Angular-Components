@@ -1,0 +1,4 @@
+<p>Username Validator</p>
+<input type="text" [(ngModel)]="username" placeholder="Enter a username" />
+<button (click)="validateUsername()">Validate</button>
+<p *ngIf="isValid !== null">{{ isValid ? 'Valid Username' : 'Invalid Username' }}</p>
