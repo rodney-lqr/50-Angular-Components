@@ -23,6 +23,7 @@ import {MultiplicationtableComponent} from "./components/multiplicationtable/mul
 import {SimpleloginComponent} from "./components/simplelogin/simplelogin.component";
 import {FarehnheittocelciusComponent} from "./components/farehnheittocelcius/farehnheittocelcius.component";
 import {BookmarklistComponent} from "./components/bookmarklist/bookmarklist.component";
+import {CharactercounterComponent} from "./components/charactercounter/charactercounter.component";
 
 
 const routes: Route[] = [
@@ -44,6 +45,7 @@ const routes: Route[] = [
   {path: 'Simplelogin', component: SimpleloginComponent},
   {path: 'Farehnheittocelcius', component: FarehnheittocelciusComponent},
   {path: 'Bookmarklist', component: BookmarklistComponent},
+  {path: 'Charactercounter', component: CharactercounterComponent},
 
 ]
 
@@ -77,6 +79,7 @@ const routes: Route[] = [
     SimpleloginComponent,
     FarehnheittocelciusComponent,
     BookmarklistComponent,
+    CharactercounterComponent,
 
   ],
 
