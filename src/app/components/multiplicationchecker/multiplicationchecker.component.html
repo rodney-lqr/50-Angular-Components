@@ -1,0 +1,5 @@
+<p>Multiplication Checker</p>
+<input type="number" [(ngModel)]="number" placeholder="Number" />
+<input type="number" [(ngModel)]="multipleOf" placeholder="Check if multiple of" />
+<button (click)="checkMultiple()">Check</button>
+<p *ngIf="isMultiple !== null">{{ number }} is {{ isMultiple ? '' : 'not ' }}a multiple of {{ multipleOf }}.</p>
