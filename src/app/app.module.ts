@@ -20,6 +20,7 @@ import {WordreverserComponent} from "./components/wordreverser/wordreverser.comp
 import {ShowdateComponent} from "./components/showdate/showdate.component";
 import {ShowusernameComponent} from "./components/showusername/showusername.component";
 import {MultiplicationtableComponent} from "./components/multiplicationtable/multiplicationtable.component";
+import {SimpleloginComponent} from "./components/simplelogin/simplelogin.component";
 
 
 const routes: Route[] = [
@@ -38,6 +39,7 @@ const routes: Route[] = [
   {path: 'Showdate', component: ShowdateComponent},
   {path: 'Showusername', component: ShowusernameComponent},
   {path: 'Multiplicationtable', component: MultiplicationtableComponent},
+  {path: 'Simplelogin', component: SimpleloginComponent},
 
 ]
 
@@ -68,6 +70,7 @@ const routes: Route[] = [
     ShowdateComponent,
     ShowusernameComponent,
     MultiplicationtableComponent,
+    SimpleloginComponent,
 
   ],
 
