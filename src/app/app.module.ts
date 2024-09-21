@@ -30,6 +30,7 @@ import {ShoppinglistComponent} from "./components/shoppinglist/shoppinglist.comp
 import {FactorialcalculatorComponent} from "./components/factorialcalculator/factorialcalculator.component";
 import {TodomanagerComponent} from "./components/todomanager/todomanager.component";
 import {GuessnumbergameComponent} from "./components/guessnumbergame/guessnumbergame.component";
+import {WordcounterComponent} from "./components/wordcounter/wordcounter.component";
 
 
 const routes: Route[] = [
@@ -58,6 +59,7 @@ const routes: Route[] = [
   {path: 'Factorialcalculator', component: FactorialcalculatorComponent},
   {path: 'Todomanager', component: TodomanagerComponent},
   {path: 'Guessnumbergame', component: GuessnumbergameComponent},
+  {path: 'Wordcounter', component: WordcounterComponent},
 
 ]
 
@@ -98,6 +100,7 @@ const routes: Route[] = [
     FactorialcalculatorComponent,
     TodomanagerComponent,
     GuessnumbergameComponent,
+    WordcounterComponent,
 
 
   ],
