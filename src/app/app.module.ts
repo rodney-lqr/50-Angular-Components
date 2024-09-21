@@ -5,10 +5,12 @@ import {BrowserModule} from "@angular/platform-browser";
 import {CommonModule} from "@angular/common";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {DisplayhelloworldComponent} from "./components/displayhelloworld/displayhelloworld.component";
+import {ShowhellobuttonComponent} from "./components/showhellobutton/showhellobutton.component";
 
 
 const routes: Route[] = [
-  {path: 'Displayhelloworld', component: DisplayhelloworldComponent}
+  {path: 'Displayhelloworld', component: DisplayhelloworldComponent},
+  {path: 'Showhellobutton', component: ShowhellobuttonComponent}
 ]
 
 @NgModule({
@@ -23,7 +25,7 @@ const routes: Route[] = [
   declarations: [
     AppComponent,
     DisplayhelloworldComponent,
-
+    ShowhellobuttonComponent
   ],
 
   providers:[
