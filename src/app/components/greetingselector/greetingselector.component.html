@@ -1,0 +1,4 @@
+<select (change)="selectGreeting($event)">
+  <option *ngFor="let greeting of greetings" [value]="greeting">{{ greeting }}</option>
+</select>
+<p>Selected Greeting: {{ selectedGreeting }}</p>

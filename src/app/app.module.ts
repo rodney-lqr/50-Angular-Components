@@ -50,6 +50,7 @@ import {DivisiblecheckerComponent} from "./components/divisiblechecker/divisible
 import {VowelcounterComponent} from "./components/vowelcounter/vowelcounter.component";
 import {RandomcolorchangerComponent} from "./components/randomcolorchanger/randomcolorchanger.component";
 import {StringreverserComponent} from "./components/stringreverser/stringreverser.component";
+import {GreetingselectorComponent} from "./components/greetingselector/greetingselector.component";
 
 
 const routes: Route[] = [
@@ -96,6 +97,7 @@ const routes: Route[] = [
   {path: 'Vowelcounter', component: VowelcounterComponent},
   {path: 'Randomcolorchanger', component: RandomcolorchangerComponent},
   {path: 'Stringreverser', component: StringreverserComponent},
+  {path: 'Greetingselector', component: GreetingselectorComponent},
 
 
 ]
@@ -155,6 +157,7 @@ const routes: Route[] = [
     VowelcounterComponent,
     RandomcolorchangerComponent,
     StringreverserComponent,
+    GreetingselectorComponent,
 
 
 
