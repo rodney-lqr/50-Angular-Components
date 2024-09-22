@@ -56,6 +56,7 @@ import {ForloopComponent} from "./components/forloop/forloop.component";
 import {WhileloopComponent} from "./components/whileloop/whileloop.component";
 import {StudentnamesComponent} from "./components/studentnames/studentnames.component";
 import {NestedloopingComponent} from "./components/nestedlooping/nestedlooping.component";
+import {GamepickerComponent} from "./components/gamepicker/gamepicker.component";
 
 
 const routes: Route[] = [
@@ -108,6 +109,7 @@ const routes: Route[] = [
   {path: 'Whileloop', component: WhileloopComponent},
   {path: 'Studentnames', component: StudentnamesComponent},
   {path: 'Nestedlooping', component: NestedloopingComponent},
+  {path: 'Gamepicker', component: GamepickerComponent},
 
 
 ]
@@ -173,10 +175,7 @@ const routes: Route[] = [
     WhileloopComponent,
     StudentnamesComponent,
     NestedloopingComponent,
-
-
-
-
+    GamepickerComponent
   ],
 
   providers:[
