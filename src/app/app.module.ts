@@ -53,6 +53,7 @@ import {StringreverserComponent} from "./components/stringreverser/stringreverse
 import {GreetingselectorComponent} from "./components/greetingselector/greetingselector.component";
 import {DivisioncheckerComponent} from "./components/divisionchecker/divisionchecker.component";
 import {ForloopComponent} from "./components/forloop/forloop.component";
+import {WhileloopComponent} from "./components/whileloop/whileloop.component";
 
 
 const routes: Route[] = [
@@ -102,6 +103,7 @@ const routes: Route[] = [
   {path: 'Greetingselector', component: GreetingselectorComponent},
   {path: 'Divisionchecker', component: DivisioncheckerComponent},
   {path: 'Forloop', component: ForloopComponent},
+  {path: 'Whileloop', component: WhileloopComponent},
 
 
 ]
@@ -164,6 +166,7 @@ const routes: Route[] = [
     GreetingselectorComponent,
     DivisioncheckerComponent,
     ForloopComponent,
+    WhileloopComponent,
 
 
 
