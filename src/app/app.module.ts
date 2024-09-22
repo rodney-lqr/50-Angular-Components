@@ -55,6 +55,7 @@ import {DivisioncheckerComponent} from "./components/divisionchecker/divisionche
 import {ForloopComponent} from "./components/forloop/forloop.component";
 import {WhileloopComponent} from "./components/whileloop/whileloop.component";
 import {StudentnamesComponent} from "./components/studentnames/studentnames.component";
+import {NestedloopingComponent} from "./components/nestedlooping/nestedlooping.component";
 
 
 const routes: Route[] = [
@@ -106,6 +107,7 @@ const routes: Route[] = [
   {path: 'Forloop', component: ForloopComponent},
   {path: 'Whileloop', component: WhileloopComponent},
   {path: 'Studentnames', component: StudentnamesComponent},
+  {path: 'Nestedlooping', component: NestedloopingComponent},
 
 
 ]
@@ -170,6 +172,7 @@ const routes: Route[] = [
     ForloopComponent,
     WhileloopComponent,
     StudentnamesComponent,
+    NestedloopingComponent,
 
 
 

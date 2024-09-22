@@ -1,0 +1,6 @@
+<button (click)="generateTable()">Generate Table</button>
+<table border="1">
+  <tr *ngFor="let row of table">
+    <td *ngFor="let cell of row">{{ cell }}</td>
+  </tr>
+</table>
