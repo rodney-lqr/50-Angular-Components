@@ -47,6 +47,7 @@ import {CurrencyformatterComponent} from "./components/currencyformatter/currenc
 import {RandomquotedisplayComponent} from "./components/randomquotedisplay/randomquotedisplay.component";
 import {UppercasegreetingComponent} from "./components/uppercasegreeting/uppercasegreeting.component";
 import {DivisiblecheckerComponent} from "./components/divisiblechecker/divisiblechecker.component";
+import {VowelcounterComponent} from "./components/vowelcounter/vowelcounter.component";
 
 
 const routes: Route[] = [
@@ -90,6 +91,7 @@ const routes: Route[] = [
   {path: 'Randomquotedisplay', component: RandomquotedisplayComponent},
   {path: 'Uppercasegreeting', component: UppercasegreetingComponent},
   {path: 'Divisiblechecker', component: DivisiblecheckerComponent},
+  {path: 'Vowelcounter', component: VowelcounterComponent},
 
 ]
 
@@ -145,6 +147,7 @@ const routes: Route[] = [
     RandomquotedisplayComponent,
     UppercasegreetingComponent,
     DivisiblecheckerComponent,
+    VowelcounterComponent,
 
 
 
