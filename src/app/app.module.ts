@@ -52,6 +52,7 @@ import {RandomcolorchangerComponent} from "./components/randomcolorchanger/rando
 import {StringreverserComponent} from "./components/stringreverser/stringreverser.component";
 import {GreetingselectorComponent} from "./components/greetingselector/greetingselector.component";
 import {DivisioncheckerComponent} from "./components/divisionchecker/divisionchecker.component";
+import {ForloopComponent} from "./components/forloop/forloop.component";
 
 
 const routes: Route[] = [
@@ -100,6 +101,7 @@ const routes: Route[] = [
   {path: 'Stringreverser', component: StringreverserComponent},
   {path: 'Greetingselector', component: GreetingselectorComponent},
   {path: 'Divisionchecker', component: DivisioncheckerComponent},
+  {path: 'Forloop', component: ForloopComponent},
 
 
 ]
@@ -161,6 +163,7 @@ const routes: Route[] = [
     StringreverserComponent,
     GreetingselectorComponent,
     DivisioncheckerComponent,
+    ForloopComponent,
 
 
 
