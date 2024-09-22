@@ -48,6 +48,7 @@ import {RandomquotedisplayComponent} from "./components/randomquotedisplay/rando
 import {UppercasegreetingComponent} from "./components/uppercasegreeting/uppercasegreeting.component";
 import {DivisiblecheckerComponent} from "./components/divisiblechecker/divisiblechecker.component";
 import {VowelcounterComponent} from "./components/vowelcounter/vowelcounter.component";
+import {RandomcolorchangerComponent} from "./components/randomcolorchanger/randomcolorchanger.component";
 
 
 const routes: Route[] = [
@@ -92,6 +93,8 @@ const routes: Route[] = [
   {path: 'Uppercasegreeting', component: UppercasegreetingComponent},
   {path: 'Divisiblechecker', component: DivisiblecheckerComponent},
   {path: 'Vowelcounter', component: VowelcounterComponent},
+  {path: 'Randomcolorchanger', component: RandomcolorchangerComponent},
+
 
 ]
 
@@ -148,6 +151,8 @@ const routes: Route[] = [
     UppercasegreetingComponent,
     DivisiblecheckerComponent,
     VowelcounterComponent,
+    RandomcolorchangerComponent,
+
 
 
 
