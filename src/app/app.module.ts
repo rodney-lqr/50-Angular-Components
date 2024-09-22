@@ -49,6 +49,7 @@ import {UppercasegreetingComponent} from "./components/uppercasegreeting/upperca
 import {DivisiblecheckerComponent} from "./components/divisiblechecker/divisiblechecker.component";
 import {VowelcounterComponent} from "./components/vowelcounter/vowelcounter.component";
 import {RandomcolorchangerComponent} from "./components/randomcolorchanger/randomcolorchanger.component";
+import {StringreverserComponent} from "./components/stringreverser/stringreverser.component";
 
 
 const routes: Route[] = [
@@ -94,6 +95,7 @@ const routes: Route[] = [
   {path: 'Divisiblechecker', component: DivisiblecheckerComponent},
   {path: 'Vowelcounter', component: VowelcounterComponent},
   {path: 'Randomcolorchanger', component: RandomcolorchangerComponent},
+  {path: 'Stringreverser', component: StringreverserComponent},
 
 
 ]
@@ -152,6 +154,7 @@ const routes: Route[] = [
     DivisiblecheckerComponent,
     VowelcounterComponent,
     RandomcolorchangerComponent,
+    StringreverserComponent,
 
 
 
